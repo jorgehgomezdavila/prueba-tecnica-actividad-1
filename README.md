@@ -49,7 +49,7 @@ Asegúrate de tener instalado:
 2. Ejecute el script ubicado en `Database-PT1/schema.sql`.
 3. Esto creará la BD `RickMortyDB` y la tabla `SearchHistory`.
 
-### 2. Ejecución del Backend
+### 2. Ejecución del Backend (.NET 8)
 
 1. Navegue a la carpeta del backend:
    - cd Backend_PT1
@@ -60,7 +60,7 @@ Asegúrate de tener instalado:
 4. El servidor iniciará en: http://localhost:5285 (o el puerto indicado en consola).
    - Swagger disponible en: http://localhost:5285/swagger
 
-### 3. Ejecución del frontend
+### 3. Ejecución del frontend (Angular)
 
 1. Abra una nueva terminal y navegue al frontend:
    - cd Frontend-PT1
@@ -85,18 +85,18 @@ Asegúrate de tener instalado:
 
 ## 📂 Estructura del Proyecto
 
-| 📁 Ruta             | 📄 Descripción         |
-| ------------------- | ---------------------- |
-| **Backend**         | API en .NET 8          |
-| Backend/Controllers | Endpoints del frontend |
-| Backend/Services    | Lógica de negocio      |
-| Backend/Models      | DTOs y Entidades       |
-| Backend/Data        | Entity Framework       |
-| **Frontend**        | Angular Standalone     |
-| Frontend/pages      | Vistas                 |
-| Frontend/services   | Comunicación HTTP      |
-| Frontend/components | UI reutilizable        |
-| **Database**        | Scripts SQL            |
+| Carpeta                        | Descripción                              |
+| ------------------------------ | ---------------------------------------- |
+| `/Backend`                     | API desarrollada en .NET 8               |
+| `/Backend/Controllers`         | Endpoints expuestos al frontend          |
+| `/Backend/Services`            | Lógica de negocio y consumo HTTP externo |
+| `/Backend/Models`              | DTOs y entidades de base de datos        |
+| `/Backend/Data`                | Contexto de Entity Framework             |
+| `/Frontend`                    | Aplicación Angular Standalone            |
+| `/Frontend/src/app/pages`      | Vistas (Home, Detail)                    |
+| `/Frontend/src/app/services`   | Comunicación HTTP                        |
+| `/Frontend/src/app/components` | Componentes UI reutilizables             |
+| `/Database`                    | Scripts SQL                              |
 
 ---
 

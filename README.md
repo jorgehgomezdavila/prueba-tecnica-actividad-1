@@ -1,4 +1,4 @@
-# 🧪 Actividad 1: Rick & Morty Explorer (BaaS)
+# 🧪 Actividad 1: Rick & Morty API (BaaS)
 
 ![Angular](https://img.shields.io/badge/Angular-17+-dd0031?style=flat&logo=angular)
 ![.NET](https://img.shields.io/badge/.NET-8.0-512bd4?style=flat&logo=dotnet)
@@ -85,19 +85,18 @@ Asegúrate de tener instalado:
 
 ## 📂 Estructura del Proyecto
 
-/
-├── Backend/ # API en .NET 8
-│ ├── Controllers/ # Endpoints expuestos al front
-│ ├── Services/ # Lógica de negocio y consumo HTTP externo
-│ ├── Models/ # DTOs y Entidades de BD
-│ └── Data/ # Contexto de Entity Framework
-│
-├── Frontend/ # App Angular Standalone
-│ ├── src/app/pages/ # Vistas (Home, Detail)
-│ ├── src/app/services/ # Comunicación HTTP
-│ └── src/app/components/ # Componentes UI reusables
-│
-└── Database/ # Scripts SQL
+| 📁 Ruta             | 📄 Descripción         |
+| ------------------- | ---------------------- |
+| **Backend**         | API en .NET 8          |
+| Backend/Controllers | Endpoints del frontend |
+| Backend/Services    | Lógica de negocio      |
+| Backend/Models      | DTOs y Entidades       |
+| Backend/Data        | Entity Framework       |
+| **Frontend**        | Angular Standalone     |
+| Frontend/pages      | Vistas                 |
+| Frontend/services   | Comunicación HTTP      |
+| Frontend/components | UI reutilizable        |
+| **Database**        | Scripts SQL            |
 
 ---
 

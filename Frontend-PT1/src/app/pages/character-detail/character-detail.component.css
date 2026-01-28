@@ -1,0 +1,20 @@
+.info-group {
+  @apply flex flex-col;
+}
+.label {
+  @apply text-xs font-bold text-slate-400 uppercase mb-1.5;
+}
+.value {
+  @apply text-lg font-bold text-slate-800;
+}
+/* Scrollbar bonita */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0;
+  border-radius: 20px;
+}

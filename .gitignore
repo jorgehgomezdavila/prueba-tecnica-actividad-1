@@ -1,0 +1,17 @@
+# --- Ignorar Archivos de Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Ignorar Backend (.NET) ---
+Backend/bin/
+Backend/obj/
+Backend/.vscode/
+Backend/appsettings.Development.json
+*.user
+
+# --- Ignorar Frontend (Angular) ---
+Frontend/node_modules/
+Frontend/.angular/
+Frontend/dist/
+Frontend/.vscode/
+*.log

@@ -1,0 +1,22 @@
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+/node_modules
+/.angular
+/.cache
+
+# IDEs
+/.idea
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
